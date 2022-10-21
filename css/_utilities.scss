@@ -1,0 +1,22 @@
+/* Utilities */
+
+.container{
+    position: relative;
+    gap: 30px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%; /*MUST HAVE SET HEIGHT TO CENTER ITEMS OTHERWISE WILL NOT WORK */
+}

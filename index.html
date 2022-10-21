@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="main">
+
+    <!-- Background for both desktop and mobile -->
+
+    <img src="images/bg-desktop.png" alt="" class="desktop">
+    <img src="images/bg-mobile.png" alt="" class="mobile">
+
+    <!-- Container -->
+
+    <div class="container grid">
+
+      <!-- Fylo and Icons -->
+      
+      <section class="fylo">
+        <img src="images/logo.svg" alt="" class="fylo-logo">
+        <ul class="icons flex">
+          <li><img src="images/icon-document.svg" class="doc" alt=""></li>
+          <li><img src="images/icon-folder.svg" class="folder" alt=""></li>
+          <li><img src="images/icon-upload.svg" class="upload"alt=""></li>
+        </ul>
+      </section>
+
+      <!--  Storage -->
+
+      <aside class="storage">
+        <div class="gb-message flex">
+          <p class="used">You’ve used <b>815 GB</b> of your storage</p>
+        </div>
+        <div class="gb-text flex">
+          <span class="text">0 GB</span>
+          <span>1000 GB</span>
+          <span class="dot"></span>
+        </div>
+      </aside>
+    </div>
+
+  </header>
+
+
+
+</body>
+</html>
